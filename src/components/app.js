@@ -8,6 +8,7 @@ export default class App extends Component {
     return (
       <div className="">
         <Header />
+        {this.props.children}
       </div>
 
     );
